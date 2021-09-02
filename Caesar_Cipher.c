@@ -3,13 +3,16 @@
 #include <string.h>
 #include <ctype.h>
 
-// CIFRA DE CEZAR TESTE
-// 32 espaco 
+
 int main(){
-    char palavra[50]; //buffer overflow warning
+    char palavra[50]; //buffer overflow fak u
+    
+    //char metodo;
+    //scanf(" %c", &metodo); //VAI TOMAR NO OC C
 
     printf("Word: ");
     scanf("%[^\n]", &palavra);
+    
 
     for (int x; x < strlen(palavra); x++){
         palavra[x] = tolower(palavra[x]);
